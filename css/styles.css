@@ -1,0 +1,151 @@
+/* основной цвет текста  #757575;*/
+/* вторичный цвет текста color: #212121; */
+/* цвет акцента color: #2196F3; */
+/* основной фон #E5E5E */
+/* цвет текста в футере color: #FFFFFF */
+
+
+
+
+
+
+body {
+    background: #E5E5E5;
+    
+    font-family: roboto, sans-serif;
+    font-style: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Хеддер */
+
+.logo {
+    font-family: Raleway;
+    font-style: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #000000;
+}
+
+.logo-web {
+    color: #2196F3;
+}
+
+.link-site-nav {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+}
+
+.site-nav .link-site-nav:hover, :focus {
+    color: #2196F3;
+}
+.link-auth-nav {
+    font-family: Roboto;
+    font-style: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+}
+
+.auth-nav .link-auth-nav:hover, :focus {
+    color: #2196F3;
+}
+
+/* Тема сайта */
+
+.title {
+    font-style: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.title-button {
+    cursor: pointer;
+    
+    font-style: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+/* Преимущества студии */
+
+.title-second-section {
+    
+    font-style: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+
+/* Чем мы занимаемся и Наша команда */
+
+.title-third-section {
+    
+    font-style: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+ /* Фото команды */
+  
+ .title-photo {
+    font-style: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+
+  }
+
+  .profession {
+      text-align: center;
+  }
+
+  /* Футер */
+
+.logo-footer {
+    font-family: Raleway;
+    font-style: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #FFFFFF;
+}
+
+.logo-web {
+    color: #2196F3;
+}
+
+.address,
+.contact {
+    color: #FFFFFF;
+}
+
+.contact {
+    
+    color: rgba(255, 255, 255, 0.6);
+}
