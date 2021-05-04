@@ -13,7 +13,8 @@ body {
     background: #E5E5E5;
     
     font-family: roboto, sans-serif;
-    font-style: 400;
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -24,7 +25,8 @@ body {
 
 .logo {
     font-family: Raleway;
-    font-style: 700;
+    font-style: normal;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color: #000000;
@@ -36,9 +38,11 @@ body {
 
 .link-site-nav {
     font-family: Roboto;
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
     color: #212121;
 }
 
@@ -47,9 +51,11 @@ body {
 }
 .link-auth-nav {
     font-family: Roboto;
+    font-style: normal;
     font-style: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
     color: #757575;
 }
 
@@ -60,7 +66,8 @@ body {
 /* Тема сайта */
 
 .title {
-    font-style: 900;
+    font-family: Roboto;
+    font-style: normal;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
@@ -72,7 +79,9 @@ body {
 .title-button {
     cursor: pointer;
     
-    font-style: 700;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     display: flex;
@@ -87,7 +96,9 @@ body {
 
 .title-second-section {
     
-    font-style: 700;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -98,7 +109,9 @@ body {
 
 .title-third-section {
     
-    font-style: 700;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -108,7 +121,9 @@ body {
  /* Фото команды */
   
  .title-photo {
-    font-style: 500;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -124,7 +139,8 @@ body {
 
 .logo-footer {
     font-family: Raleway;
-    font-style: 700;
+    font-style: normal;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color: #FFFFFF;
@@ -145,7 +161,9 @@ body {
 .button-list {
     cursor: pointer;
 
-    font-style: 500;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
@@ -164,7 +182,9 @@ body {
 
 .title-project {
     
-    font-style: 700;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
