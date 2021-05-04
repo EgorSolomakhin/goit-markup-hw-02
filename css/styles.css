@@ -66,7 +66,6 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 
@@ -81,6 +80,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    background: #2196F3;
 }
 
 /* Преимущества студии */
@@ -90,9 +90,7 @@ body {
     font-style: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #212121;
 }
 
@@ -104,8 +102,6 @@ body {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
-
     color: #212121;
 }
 
@@ -116,8 +112,6 @@ body {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
-
     color: #212121;
 
   }
@@ -148,4 +142,35 @@ body {
 .contact {
     
     color: rgba(255, 255, 255, 0.6);
+}
+
+/*  Список фильтр кнопок в партфолио */
+
+.button-list {
+    cursor: pointer;
+
+    font-style: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    color: #212121;
+
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-list:hover, :focus {
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+/* Проекты партфолио */
+
+.title-project {
+    
+    font-style: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: #212121;
 }
