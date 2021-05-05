@@ -1,7 +1,8 @@
 /* основной цвет текста  #757575;*/
 /* вторичный цвет текста color: #212121; */
 /* цвет акцента color: #2196F3; */
-/* основной фон #E5E5E */
+/* основной фон #E5E5E5 */
+/* Цвет фона в футере background: #2F303A; */
 /* цвет текста в футере color: #FFFFFF */
 
 
@@ -30,6 +31,11 @@ body {
     font-size: 26px;
     line-height: 1.19;
     color: #000000;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
 
 .logo-web {
@@ -44,6 +50,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
+    text-decoration: none;
 }
 
 .site-nav .link-site-nav:hover, :focus {
@@ -57,6 +64,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+    text-decoration: none;
 }
 
 .auth-nav .link-auth-nav:hover, :focus {
@@ -67,6 +75,7 @@ body {
 
 .title {
     font-family: Roboto;
+    font-weight: 900;
     font-style: normal;
     font-size: 44px;
     line-height: 1.36;
@@ -144,11 +153,14 @@ body {
     font-size: 26px;
     line-height: 1.19;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .address,
 .contact {
     color: #FFFFFF;
+    text-decoration: none;
+    font-style: normal;
 }
 
 .contact {
