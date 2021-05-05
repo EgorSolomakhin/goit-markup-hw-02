@@ -5,13 +5,22 @@
 /* Цвет фона в футере background: #2F303A; */
 /* цвет текста в футере color: #FFFFFF */
 
+:root {
+    --main-text-color: #757575;
+    --secondery-text-color: #212121;
+    --accent-color: #2196F3;
+    --main-background-color: #E5E5E5;
+    --secondary-background-color: #2F303A;
+    --footer-text-color: #FFFFFF;
+
+}
 
 
 
 
 
 body {
-    background: #E5E5E5;
+    background: var(--main-background-color);
     
     font-family: roboto, sans-serif;
     font-style: normal;
@@ -19,7 +28,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--main-text-color);
 }
 
 /* Хеддер */
@@ -49,12 +58,12 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--secondery-text-color);
     text-decoration: none;
 }
 
 .site-nav .link-site-nav:hover, :focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .link-auth-nav {
     font-family: Roboto;
@@ -63,12 +72,12 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--main-text-color);
     text-decoration: none;
 }
 
 .auth-nav .link-auth-nav:hover, :focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Тема сайта */
@@ -111,7 +120,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--secondery-text-color);
 }
 
 /* Чем мы занимаемся и Наша команда */
@@ -124,7 +133,7 @@ ul {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    color: #212121;
+    color: var(--secondery-text-color);
 }
 
  /* Фото команды */
@@ -136,7 +145,7 @@ ul {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    color: #212121;
+    color: var(--secondery-text-color);
 
   }
 
@@ -152,13 +161,13 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #FFFFFF;
+    color: var(--footer-text-color);
     text-decoration: none;
 }
 
 .address,
 .contact {
-    color: #FFFFFF;
+    color: var(--footer-text-color);
     text-decoration: none;
     font-style: normal;
 }
@@ -179,7 +188,7 @@ ul {
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
-    color: #212121;
+    color: var(--secondery-text-color);
 
     background: #F5F4FA;
     border-radius: 4px;
@@ -187,7 +196,7 @@ ul {
 
 .button-list:hover, :focus {
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--accent-color);
 }
 
 /* Проекты партфолио */
@@ -200,5 +209,5 @@ ul {
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--secondery-text-color);
 }
